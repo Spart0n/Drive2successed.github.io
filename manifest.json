@@ -16,7 +16,7 @@
             "purpose": "maskable any"
         }
     ],
-    "theme": "000000",
+    "theme": "#000000",
     "backround_color": "#ffffff",
     "display": "fullscreen",
     "orientation": "portait"
