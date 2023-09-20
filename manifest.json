@@ -2,6 +2,7 @@
     "name": "Driven2Succseed",
     "short_name":  "Driven",
     "Start_url" : "/?home=true",
+    "prefer_related_applacation" : "true",
     "icons": [
         {
              "src": "icons/manifesr-icon-192.png",
