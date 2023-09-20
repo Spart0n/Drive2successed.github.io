@@ -1,0 +1,10 @@
+{
+    "name": "Driven2Succseed",
+    "short_name":  "Driven",
+    "Start_url" : "/?home=true",
+    "icons": [],
+    "theme": "000000",
+    "backround_color": "#ffffff",
+    "display": "fullscreen",
+    "orientation": "portait"
+}
