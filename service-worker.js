@@ -4,5 +4,5 @@ importScripts(
 
 workbox.routing.registerRoute(
 ({Request}) => Request.destination === '/images',
-new workbox.stratagies.networkFirst()
+new workbox.stratagies.NetworkFirst()
 );
