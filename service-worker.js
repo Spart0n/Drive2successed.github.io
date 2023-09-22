@@ -3,6 +3,6 @@ importScripts(
   );
 
 workbox.routing.registerRoute(
-({Request}) => Request.destination === 'image',
+({Request}) => Request.destination === '/images',
 new workbox.stratagies.CacheFirst()
 );
