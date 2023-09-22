@@ -12,7 +12,7 @@
              "purpose": "maskable any"
         },
         {
-            "src": "icons/manifest-icon.png",
+            "src": "icons/manifest-icon-512.maskable.png",
             "size": "512x512",
             "type": "image/png",
             "purpose": "maskable any"
