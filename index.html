@@ -31,15 +31,31 @@
            Driven2Succseed           
     </h1>
     <h2>sup!</h2>
-
-<script>
-
-    if ('serviceWorker' in navigator) {
+<!--
+<script>old 
+   if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/service-worker.js');
-
     }
-
 </script>
-
+-->
+<script>
+      window.addEventListener('load', () => {
+        registerSW();
+      });
+   
+      // Register the Service Worker
+      async function registerSW() {
+        if ('serviceWorker' in navigator) {
+          try {
+            await navigator
+                  .serviceWorker
+                  .register('serviceworker.js');
+          }
+          catch (e) {
+            console.log('SW registration failed');
+          }
+        }
+      }
+   </script>
 </body>
 </html>
