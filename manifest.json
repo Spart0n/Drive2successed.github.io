@@ -1,7 +1,7 @@
 {
     "name": "Driven2Succseed",
     "short_name":  "Driven",
-    "Start_url" : "./index.html",
+    "Start_url" : "../index.html",
     "scope" : ".",
     "prefer_related_applacation" : "true",
     "icons": [
