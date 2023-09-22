@@ -6,9 +6,11 @@
     "prefer_related_applacation" : "true",
     "icons": [
         {
-             "src": "icons/manifest-icon.png",
+             "src": "icons/manifest-icon-192.maskable.png",
              "size": "192x192",
              "type": "image/png",
+             
+             
              "purpose": "maskable any"
         },
         {
