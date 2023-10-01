@@ -3,5 +3,18 @@
     "shot_name": "D2d",
     "start_url": ".",
     "background_color": "#6dcdb1",
-    "theme_color":"#009578"
+    "theme_color":"#009578",
+    "display": "standalone",
+    "icons": [
+        {
+            "src":"icons/icons/manifest-icon-192.maskable.png",
+            "sizes": "192X192",
+            "type": "image/png"
+        },
+        {
+            "src":"icons/icons/manifest-icon-512.maskable.png",
+            "sizes": "512X512",
+            "type": "image/png"
+        }
+    ]
 }
